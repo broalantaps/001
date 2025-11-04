@@ -20,7 +20,7 @@
 # limitations under the License.
 from typing import Optional
 
-from transformers.configuration_utils import PreTrainedConfig
+from transformers.configuration_utils import PretrainedConfig as PreTrainedConfig
 from transformers.modeling_rope_utils import RopeParameters, rope_config_validation, standardize_rope_params
 
 
